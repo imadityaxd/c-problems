@@ -26,5 +26,6 @@ int main(){
     p.getdata();
     p.display();
 
+    system("pause");
     return 0;
 }
