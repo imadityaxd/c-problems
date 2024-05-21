@@ -1,13 +1,13 @@
 #include <iostream>
 
-class TemperatureConverter {
+class temp {
 private:
     float fahrenheit;
     float celsius;
 
 public:
     // Constructor to initialize the fahrenheit value
-    TemperatureConverter(float f) : fahrenheit(f), celsius(0.0) {}
+    temp(float f) : fahrenheit(f), celsius(0.0) {}
 
     // Function to perform the conversion
     void convertToFahrenheit() {
@@ -28,7 +28,7 @@ int main() {
     std::cin >> tempF;
 
     // Create an object of TemperatureConverter class
-    TemperatureConverter converter(tempF);
+    temp converter(tempF);
 
     // Convert the temperature to Celsius
     converter.convertToFahrenheit();
