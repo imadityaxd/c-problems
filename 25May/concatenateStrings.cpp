@@ -1,3 +1,5 @@
+/**C++ program to concatenate strings together*/
+
 #include <iostream>
 using namespace std;
 
