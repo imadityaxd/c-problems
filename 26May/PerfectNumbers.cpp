@@ -1,3 +1,4 @@
+/* C++ program to find perfect number */
 #include<iostream>
 using namespace std;
 int main ()
